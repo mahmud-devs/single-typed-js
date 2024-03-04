@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, hsl(101, 99%, 61%), rgb(194, 48, 227));
+    column-gap: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main--div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+}
+.hourInput,
+.minuteInput,
+.secondInput {
+    padding: 10px 20px;
+}
+.hourInput,
+.minuteInput,
+.secondInput:focus {
+    outline: none;
+}
+h3 {
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.start,
+.end,
+.btno {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.time,
+.secondtime,
+.minutetime {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
